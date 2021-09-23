@@ -1,6 +1,6 @@
 {
   "name": "template-react-util",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "create react template Comp",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,10 @@
   },
   "author": "",
   "license": "ISC",
-  "keywords": ["react", "template"],
+  "keywords": [
+    "react",
+    "template"
+  ],
   "repository": {
     "type": "git",
     "url": "git+git@github.com:cuiyanyang/template-react-util.git"
