@@ -2,7 +2,7 @@ const indexFile = (fileName) => {
     return `import ${fileName} from './${fileName}';
 
 export default ${fileName};
-    `;
+`;
 }
 
 const CompFile = fileName => {
@@ -41,14 +41,14 @@ class ${fileName} extends PureComponent<Props, State>{
 };
 
 export default ${fileName};
-    `
+`
 }
 
 const CompLessFile = () => {
     return `.root {
 
 }
-    `
+`
 }
 
 module.exports = {

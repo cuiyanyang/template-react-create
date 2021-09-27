@@ -2,7 +2,7 @@ const indexFile = (fileName) => {
     return `import ${fileName} from './${fileName}';
 
 export default ${fileName};
-    `;
+`;
 }
 
 const CompFile = fileName => {
@@ -22,14 +22,14 @@ ${fileName}.defaultProps = {
 }
 
 export default ${fileName};
-    `
+`
 }
 
 const CompLessFile = () => {
     return `.root {
 
 }
-    `
+`
 }
 
 module.exports = {
